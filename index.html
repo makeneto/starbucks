@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="./images/logo.png" alt="logo Starbucks"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est beatae nisi perspiciatis distinctio officia voluptatem praesentium! Ipsam, cumque! Provident ipsum adipisci saepe magni aut beatae cupiditate maiores ducimus recusandae quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/img1.png" class="starbucks" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/thumb1.png"  onclick="imgSlider('./images/img1.png');ChangeCircleColor('#017143')" alt=""></li>
+            <li><img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png');ChangeCircleColor('#eb7495')" alt=""></li>
+            <li><img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png');ChangeCircleColor('#d752b1')" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href=""><img src="./images/facebook.png"></a></li>
+            <li><a href=""><img src="./images/twitter.png"></a></li>
+            <li><a href=""><img src="./images/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
